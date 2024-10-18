@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\file_dialog_row.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\file_dialog_row.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_karyawan.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_karyawan.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul1.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul1.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_ancak.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_ancak.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_menu.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul3.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul3.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_data_karyawan.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_data_karyawan.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_aplikasi_pemupukan.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_aplikasi_pemupukan.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_tph.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_tph.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_main_menu.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\file_dialog_main.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\file_dialog_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul_detail.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul_detail.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul_twopane.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul_twopane.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_evaluator.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_evaluator.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_tphselection.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_tphselection.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\alertdialog.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\alertdialog.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_pokok.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_pokok.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_spv_rcm.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_spv_rcm.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_setelahpupuk.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_setelahpupuk.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_fruit.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_fruit.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_tphdetails.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_tphdetails.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_pupuk.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_pupuk.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul_list.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul4.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul4.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\layout\\activity_modul2.xml",
+        "source": "E:\\Android\\InternalControl\\res\\layout\\activity_modul2.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Android\\InternalControl\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\file.png",
+        "source": "E:\\Android\\InternalControl\\res\\drawable-hdpi\\file.png"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\folder.png",
+        "source": "E:\\Android\\InternalControl\\res\\drawable-hdpi\\folder.png"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "E:\\Android\\InternalControl\\res\\drawable-hdpi\\icon.png"
+    }
+]

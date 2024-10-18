@@ -1,0 +1,285 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pupukheader1"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/pupukheader1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pupukheader2"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/pupukheader2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/abnormalitas" />
+
+            <Spinner
+                android:id="@+id/spPupuk1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+                <requestFocus />
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk2" />
+
+            <CheckBox
+                android:id="@+id/cbPupuk2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pupuk3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cbPupuk31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pupuk31" />
+
+            <CheckBox
+                android:id="@+id/cbPupuk32"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pupuk32" />
+
+            <CheckBox
+                android:id="@+id/cbPupuk33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pupuk33" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/akses" />
+
+            <Spinner
+                android:id="@+id/spPupuk4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk5" />
+
+            <EditText
+                android:id="@+id/etPupuk5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPupuk51"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk51"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/etPupuk51"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPupuk52"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk52"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/etPupuk52"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPupuk53"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk53"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/etPupuk53"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk6" />
+
+            <CheckBox
+                android:id="@+id/cbPupuk6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk61" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/pupuk7" />
+
+            <Spinner
+                android:id="@+id/spPupuk7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPupuk8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pupuk8" />
+
+            <Button
+                android:id="@+id/btnPupuk9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pupuk91" />
+
+            <Button
+                android:id="@+id/btnPupuk10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pupuk10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPupuk11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pupuk11" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_modul1.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_modul1.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_tph.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_tph.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_modul.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_modul.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_fruit.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_fruit.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\main_menu.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_pupuk.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_pupuk.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_setelahpupuk.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_setelahpupuk.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_modul2.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_modul2.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_karyawan.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_karyawan.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_data_karyawan.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_data_karyawan.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_evaluator.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_evaluator.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_spv_rcm.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_spv_rcm.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_modul3.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_modul3.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_aplikasi_pemupukan.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_aplikasi_pemupukan.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_ancak.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_ancak.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_tphdetails.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_tphdetails.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_tphselection.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_tphselection.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_modul4.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_modul4.xml"
+    },
+    {
+        "merged": "E:\\Android\\InternalControl\\build\\intermediates\\res\\merged\\release\\menu\\activity_menu.xml",
+        "source": "E:\\Android\\InternalControl\\res\\menu\\activity_menu.xml"
+    }
+]

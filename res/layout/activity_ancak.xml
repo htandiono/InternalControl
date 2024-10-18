@@ -1,0 +1,1227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UselessParent,TooManyViews">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LLancak1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60">
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin1"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin2"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin3"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="40" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin4"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin5"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin6"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin7"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin8"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="40" />
+
+                <Spinner
+
+                    android:id="@+id/spMataAngin9"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLancak10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoAncak10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="number"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/noJalur10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noJalur"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNoJalur10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/namaancak"
+                    android:layout_weight="40" />
+
+                <EditText
+                    android:id="@+id/etNamaAncak10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:inputType="text"
+                    android:layout_weight="60"></EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <TextView
+                    android:id="@+id/mataAngin10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mataAngin"
+                    android:layout_weight="40"
+                    android:layout_gravity="center_vertical" />
+
+                <Spinner
+                    android:id="@+id/spMataAngin10"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="60" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbCek10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="@string/cekAncak"
+                android:textColor="#FF0000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="6dp">
+
+                <Button
+                    android:id="@+id/tvSwipe10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/swipe"
+                    android:gravity="center"
+                    android:text="@string/next" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

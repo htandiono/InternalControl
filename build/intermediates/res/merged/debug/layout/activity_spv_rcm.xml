@@ -1,0 +1,603 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="TooManyViews" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spv1" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/spv11" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/spv12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_span="2"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/spv13" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/spv131" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/spv132" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/spv111" />
+
+                <EditText
+                    android:id="@+id/etspv1111"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etspv1112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+
+                <EditText
+                    android:id="@+id/etspv1113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/spv112" />
+
+                <EditText
+                    android:id="@+id/etspv1121"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+
+                <EditText
+                    android:id="@+id/etspv1122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+
+                <EditText
+                    android:id="@+id/etspv1123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/spv113" />
+
+                <EditText
+                    android:id="@+id/etspv1131"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+
+                <EditText
+                    android:id="@+id/etspv1132"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+
+                <EditText
+                    android:id="@+id/etspv1133"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/spv114" />
+
+                <EditText
+                    android:id="@+id/etspv1141"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+
+                <EditText
+                    android:id="@+id/etspv1142"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+
+                <EditText
+                    android:id="@+id/etspv1143"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="3"
+                    android:layout_weight="1"
+                    android:inputType="numberSigned" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/spv2" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/spv21" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:text="@string/spv111" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    android:text="@string/spv112" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi911" />
+
+                <CheckBox
+                    android:id="@+id/cb211"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb212"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi912" />
+
+                <CheckBox
+                    android:id="@+id/cb221"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb222"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi913" />
+
+                <CheckBox
+                    android:id="@+id/cb231"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb232"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi914" />
+
+                <CheckBox
+                    android:id="@+id/cb241"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb242"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi915" />
+
+                <CheckBox
+                    android:id="@+id/cb251"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb252"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi916" />
+
+                <CheckBox
+                    android:id="@+id/cb261"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb262"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi917" />
+
+                <CheckBox
+                    android:id="@+id/cb271"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb272"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi918" />
+
+                <CheckBox
+                    android:id="@+id/cb281"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb282"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi919" />
+
+                <CheckBox
+                    android:id="@+id/cb291"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb292"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:text="@string/aplikasi9110" />
+
+                <CheckBox
+                    android:id="@+id/cb2101"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="1" />
+
+                <CheckBox
+                    android:id="@+id/cb2102"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="2"
+                    android:layout_weight="1" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spv3" />
+
+            <Spinner
+                android:id="@+id/spSpv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+           <EditText
+                android:id="@+id/etSpv31"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="text" >
+
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spv31" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnPemupukan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/aplikasi" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnAuditPemupukan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/detilaudit" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

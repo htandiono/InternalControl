@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Evaluator" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/evaluator"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.ic.InstantAutoComplete
+            android:id="@+id/etEvaluator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/btnScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/enter" />
+
+</LinearLayout>

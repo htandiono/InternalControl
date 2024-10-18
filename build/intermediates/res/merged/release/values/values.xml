@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Evaluator">
+        <item>Staff HO</item>
+        <item>Leader</item>
+        <item>Irwan</item>
+        <item>Doni Andriadi</item>
+        <item>Rudi Iswanto</item>
+        <item>Yogi Armawi</item>
+        <item>Hendra</item>
+        <item>Budi Wibowo</item>
+        <item>Satria</item>
+        <item>Jefry Gunawan</item>
+        <item>Nizar</item>
+        <item>Tommy</item>
+        <item>Juhairi Akbar</item>
+        <item>Hendro</item>
+        <item>Kevin</item>
+        <item>Royke Sarumpaet</item>
+        <item>Hari Mulyono</item>
+        <item>Rudy</item>
+        <item>Jim Hanjani</item>
+        <item>Yudi Orlando</item>
+        <item>Wesley Simanungkalit</item>
+        <item>Hasan Basri</item>
+        <item>Riki Iswanto</item>
+        <item>Agus</item>
+        <item>Reidica</item>
+        <item>Kiki Wahyudi</item>
+        <item>Salwadi</item>
+        <item>Sabwan</item>
+        <item>Fendriyanto</item>
+        <item>Eko Chandra</item>
+        <item>Supriyanang</item>
+        <item>Muhammad Iqbal</item>
+        <item>Fandi Dedi</item>
+        <item>Aji</item>
+        <item>Halomoan</item>
+        <item>Rizki</item>
+        <item>Jefri</item>
+        <item>Hidayat</item>
+    </string-array>
+    <color name="judul">#50C0E9</color>
+    <color name="subJudul">#C5EAF8</color>
+    <color name="swipe">#303030</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="FU">Perlu follow up?</string>
+    <string name="PT">PT:</string>
+    <string name="abnormalitas">Abnormalitas:</string>
+    <string name="abnormalitasb">Pokok barren/steril</string>
+    <string name="abnormalitask">Pokok kembar</string>
+    <string name="abnormalitass">Pokok sisipan</string>
+    <string name="abnormalitast">Pokok tumbang</string>
+    <string name="abnormalitasx">Pokok mati/kosong</string>
+    <string name="action_settings">Settings</string>
+    <string name="akses">Kondisi Pasar Pikul:</string>
+    <string name="aksesb">Becek</string>
+    <string name="akseso">Objek asing</string>
+    <string name="aksesp">Tidak ada titi panen</string>
+    <string name="aksest">Tergenang</string>
+    <string name="aksesw">Tertutup gulma</string>
+    <string name="alas">Terdapat Alas?</string>
+    <string name="alasan">Alasan:</string>
+    <string name="ancak">Ancak:</string>
+    <string name="aplikasi">Aplikasi Pemupukan</string>
+    <string name="aplikasi1">i. Jumlah karung yang pecah saat distribusi</string>
+    <string name="aplikasi10">x. Karung kosong:</string>
+    <string name="aplikasi101">Dihitung mandor, digulung, dikembalikan ke gudang dan dihitung
+        ulang
+</string>
+    <string name="aplikasi102">Dihitung mandor, digulung, dikembalikan ke gudang dan tidak dihitung
+        ulang
+</string>
+    <string name="aplikasi103">Dikembalikan ke gudang oleh karyawan dan dihitung oleh mandor dan
+        staff
+</string>
+    <string name="aplikasi104">Tidak dikembalikan</string>
+    <string name="aplikasi105">Lainnya</string>
+    <string name="aplikasi11">xi. Jumlah karung kosong yang dikembalikan ke gudang</string>
+    <string name="aplikasi2">ii. Panen bersamaan dengan pemupukan</string>
+    <string name="aplikasi3">iii. Jumlah Penabur</string>
+    <string name="aplikasi4">iv. Jatah karung / penabur</string>
+    <string name="aplikasi5">v. Jumlah karung</string>
+    <string name="aplikasi6">vi. Selisih berat kalibrasi</string>
+    <string name="aplikasi7">vii. Waktu Pemupukan</string>
+    <string name="aplikasi71">Mulai</string>
+    <string name="aplikasi72">Istirahat</string>
+    <string name="aplikasi73">Selesai</string>
+    <string name="aplikasi8">viii. Jumlah pupuk yang tidak teraplikasi</string>
+    <string name="aplikasi81">karung, alasan:</string>
+    <string name="aplikasi9">ix. Jumlah rata-rata karung yang telah diaplikasikan waktu istirahat
+</string>
+    <string name="aplikasi91">Karyawan</string>
+    <string name="aplikasi911">1</string>
+    <string name="aplikasi9110">10</string>
+    <string name="aplikasi912">2</string>
+    <string name="aplikasi913">3</string>
+    <string name="aplikasi914">4</string>
+    <string name="aplikasi915">5</string>
+    <string name="aplikasi916">6</string>
+    <string name="aplikasi917">7</string>
+    <string name="aplikasi918">8</string>
+    <string name="aplikasi919">9</string>
+    <string name="aplikasi92">Jumlah Karung</string>
+    <string name="app_name">MM - Internal Control</string>
+    <string name="app_title">Field Checking - Ver.1.07</string>
+    <string name="arealaplikasi">Areal Aplikasi</string>
+    <string name="auditpupuk">Detil Audit Pemupukan</string>
+    <string name="bagus">Bagus</string>
+    <string name="baru">Baru</string>
+    <string name="beratbuah">Berat Buah:</string>
+    <string name="berattumpukan1">Berat Tumpukan 1:</string>
+    <string name="berattumpukan2">Berat Tumpukan 2:</string>
+    <string name="berattumpukan3">Berat Tumpukan 3:</string>
+    <string name="berattumpukan4">Berat Tumpukan 4:</string>
+    <string name="berattumpukan5">Berat Tumpukan 5:</string>
+    <string name="berattumpukan6">Berat Tumpukan 6:</string>
+    <string name="berondolbusuk">Brondolan Busuk:</string>
+    <string name="berondolsegar">Brondolan Segar:</string>
+    <string name="bersih">TPH Bersih?</string>
+    <string name="bgmatahari">Buah Matahari:</string>
+    <string name="blockid">Block ID:</string>
+    <string name="brondolan">Brondolan</string>
+    <string name="brondolankg">G.Brondolan\n(kg):</string>
+    <string name="buah">buah</string>
+    <string name="buahexit">Selesai Pengecekan Buah</string>
+    <string name="buahkastrasi">Buah Kastrasi</string>
+    <string name="buahke">Buah ke:</string>
+    <string name="buahnext">Buah Berikutnya</string>
+    <string name="buahprev">Buah Sebelumnya</string>
+    <string name="bungaa">Di atas pokok</string>
+    <string name="bungak">Keduanya</string>
+    <string name="bungal">Di luar pokok</string>
+    <string name="busuk">Busuk/BJK</string>
+    <string name="busukk">Busuk</string>
+    <string name="cancel">Cancel</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="cek">Ada Kesalahan Input?</string>
+    <string name="cekAbnormal">Ada kesalahan pengecekan abnormalitas?</string>
+    <string name="cekAkses">Ada kesalahan pengecekan aksesibilitas?</string>
+    <string name="cekAncak">Ancak yang dicek</string>
+    <string name="cekBM">Ada kesalahan pada buah matahari?</string>
+    <string name="cekBr">Ada kesalahan brondolan?</string>
+    <string name="cekCPir">Ada kesalahan pengecekan piringan?</string>
+    <string name="cekFS">Ada salah cek tumpukan pelepah?</string>
+    <string name="cekLFB">Ada kesalahan persepsi pangkal pelepah?</string>
+    <string name="cekNoB">Ada kesalahan tandan panen?</string>
+    <string name="cekPruning">Ada kesalahan persepsi pruning?</string>
+    <string name="cekTD">Ada kesalahan tandan tidak dikeluarkan?</string>
+    <string name="cekTT">Ada kesalahan tandan tidak terpanen?</string>
+    <string name="cekWOPS">Ada kesalahan WOPS?</string>
+    <string name="cekbuah">Pengecekan Buah</string>
+    <string name="company">Company:</string>
+    <string name="create">Save</string>
+    <string name="detilaudit">Detil Audit Pemupukan</string>
+    <string name="division">Division:</string>
+    <string name="dosage">Dosis per pokok:</string>
+    <string name="dura">dura</string>
+    <string name="enter">Enter</string>
+    <string name="err">Error</string>
+    <string name="estate">Estate:</string>
+    <string name="evaluator">Nama Evaluator :</string>
+    <string name="extranote">Extra Note:</string>
+    <string name="f50to75">50% - 75%</string>
+    <string name="file_name">File name:</string>
+    <string name="finish">Simpan File dan Keluar</string>
+    <string name="gram">Gram</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="identitasbuah">B.Identitas Buah</string>
+    <string name="janjanghitung">Total Janjang\n(dihitung)</string>
+    <string name="janjangtulis">Total Janjang\n(ditulis)</string>
+    <string name="jenisbuah">Jenis Buah:</string>
+    <string name="jeniskaryawan">Jenis Karyawan</string>
+    <string name="jenispupuk">Jenis Pupuk:</string>
+    <string name="jumlahtumpukan">Jumlah Tumpukan:</string>
+    <string name="karyawan1">i. Kode Karyawan</string>
+    <string name="karyawan10">x. Berat Ember | Jumlah Pokok</string>
+    <string name="karyawan2">ii. Jenis Karyawan</string>
+    <string name="karyawan3">iii. Blok</string>
+    <string name="karyawan4">iv. Jalur</string>
+    <string name="karyawan5">v. Tidak Pakai Alas?</string>
+    <string name="karyawan6">vi. Tercecer?</string>
+    <string name="karyawan7">vii. Mangkuk</string>
+    <string name="karyawan71">Warna</string>
+    <string name="karyawan72">Dosis</string>
+    <string name="karyawan8">viii. Tidak mulai dari pasar tengah?</string>
+    <string name="karyawan9">ix. Penggunaan APD</string>
+    <string name="karyawan912">Ada?</string>
+    <string name="karyawan913">Layak?</string>
+    <string name="karyawan921">Perlengkapan</string>
+    <string name="karyawan931">Sarung Tangan</string>
+    <string name="karyawan941">Masker</string>
+    <string name="karyawan951">Sepatu AP</string>
+    <string name="karyawan961">Baju Lengan Panjang</string>
+    <string name="karyawan971">Baju Apron</string>
+    <string name="keluar">Keluar</string>
+    <string name="keterangan">Keterangan:</string>
+    <string name="kg">KG</string>
+    <string name="kodekaryawan">Kode Karyawan</string>
+    <string name="kodepermanen">Kode Permanen</string>
+    <string name="kondisi">D.Kondisi Buah</string>
+    <string name="kondisitph">A.Kondisi TPH</string>
+    <string name="krmatangbuah">C.Kriteria Kematangan Buah</string>
+    <string name="kualitas">A.Kualitas Panen</string>
+    <string name="labelBusukKering">Busuk Kering</string>
+    <string name="labelBusukMinyak">Busuk Minyak</string>
+    <string name="labelSegar">Segar</string>
+    <string name="lama">Lama</string>
+    <string name="lapangan">B.Kondisi Lapangan</string>
+    <string name="less50">&lt;50%</string>
+    <string name="loadfile">Load File</string>
+    <string name="location">Location</string>
+    <string name="losses">C.Losses</string>
+    <string name="mainpage">Main Page</string>
+    <string name="masak">Masak:</string>
+    <string name="mataAngin">Arah Mata Angin:</string>
+    <string name="mengkal">Mengkal:</string>
+    <string name="mentah">Mentah:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="modul1">Audit Panen Lapangan</string>
+    <string name="modul2">Audit Panen TPH(Hari Sebelumnya)</string>
+    <string name="modul3">Audit Panen TPH</string>
+    <string name="modul4">Audit Pupuk</string>
+    <string name="more75">>75%</string>
+    <string name="namaancak">Nama Permanen:</string>
+    <string name="newfile">New File</string>
+    <string name="next">Next</string>
+    <string name="nextTPH">Cek TPH Berikutnya</string>
+    <string name="nextancak">Simpan Ancak</string>
+    <string name="nextpokok">Pokok Berikut</string>
+    <string name="nnew">New</string>
+    <string name="no">Tidak ada</string>
+    <string name="no2">Tidak</string>
+    <string name="noJalur">Nomor Jalur:</string>
+    <string name="no_data">No Data</string>
+    <string name="noancak">Nomor Ancak:</string>
+    <string name="nomortph">Nomor TPH:</string>
+    <string name="objek">Ada Objek Asing</string>
+    <string name="other">Lainnya:</string>
+    <string name="pangkalpelepah">Pangkal Pelepah Panjang:</string>
+    <string name="parte"><u>Partenocarpic</u></string>
+    <string name="pasarpikul">Pasar Pikul:</string>
+    <string name="pelepah">Pelepah:</string>
+    <string name="permanen">Permanen?</string>
+    <string name="permanen1">Permanen 1</string>
+    <string name="permanen2">Permanen 2</string>
+    <string name="photo">Take Photo</string>
+    <string name="piringan">Piringan:</string>
+    <string name="pisifera">pisifera</string>
+    <string name="pnext">Pokok Berikut</string>
+    <string name="pokok">Pokok:</string>
+    <string name="pokok2">Pokok</string>
+    <string name="potonganv">Potongan "V"</string>
+    <string name="prev">Pokok Sebelumnya</string>
+    <string name="pruning">Pruning:</string>
+    <string name="pruningn">Standart</string>
+    <string name="pruningo">Over</string>
+    <string name="pruningu">Under</string>
+    <string name="pupuk10">Next</string>
+    <string name="pupuk11">Pilih Karyawan</string>
+    <string name="pupuk2">Tercecer di pasar pikul?</string>
+    <string name="pupuk3">Kondisi Piringan</string>
+    <string name="pupuk31">Weeds</string>
+    <string name="pupuk32">Raking</string>
+    <string name="pupuk33">Objek Asing</string>
+    <string name="pupuk5">Taburan:</string>
+    <string name="pupuk51">Taburan Kiri:</string>
+    <string name="pupuk52">Taburan Atas:</string>
+    <string name="pupuk53">Taburan Bawah:</string>
+    <string name="pupuk6">Areal</string>
+    <string name="pupuk61">Baik</string>
+    <string name="pupuk7">Kondisi:</string>
+    <string name="pupuk8">Prev</string>
+    <string name="pupuk91">Sesudah Pemupukan</string>
+    <string name="pupuk92">Setelah Pemupukan</string>
+    <string name="pupukheader1">Anda di pokok:</string>
+    <string name="pupukheader2">Waktu:</string>
+    <string name="raking">Perlu Digaruk/Raking</string>
+    <string name="region">Region:</string>
+    <string name="restan">Restan</string>
+    <string name="rotasi">Rotasi Panen:</string>
+    <string name="sampah">F.Sampah (kg):</string>
+    <string name="saveexit">Simpan File dan Keluar</string>
+    <string name="segar">Segar</string>
+    <string name="select">Select</string>
+    <string name="semasapemupukan">Semasa Pemupukan</string>
+    <string name="serangantikus">Serangan Tikus</string>
+    <string name="sesudahpemupukan">Sesudah Pemupukan</string>
+    <string name="simpan">Simpan Ancak</string>
+    <string name="slash">/</string>
+    <string name="spv1">i. Tenaga Kerja dan Waktu Supervisi</string>
+    <string name="spv11">Jabatan</string>
+    <string name="spv111">Mandor</string>
+    <string name="spv112">Aslap</string>
+    <string name="spv113">Askep</string>
+    <string name="spv114">Manager</string>
+    <string name="spv12">Jumlah</string>
+    <string name="spv13">Waktu Supervisi</string>
+    <string name="spv131">Penuh</string>
+    <string name="spv132">Sebagian</string>
+    <string name="spv2">ii. Supervisi pada karyawan</string>
+    <string name="spv21">Karyawan</string>
+    <string name="spv3">iii.Rekomendasi pemupukan bulan:</string>
+    <string name="spv31">Beda? Sebab</string>
+    <string name="supervisi">Supervisi dan Rekomendasi Pemupukuan</string>
+    <string name="swipe">Gesek disini</string>
+    <string name="tandanbuah">Tandan Buah</string>
+    <string name="tandanpanen">Tandan Panen:</string>
+    <string name="tandantinggal">Tandan Tinggal:</string>
+    <string name="tangkaipanjang">Tangkai\nPanjang</string>
+    <string name="tdkkeluara">Aksesbilitas buruk</string>
+    <string name="tdkkeluarh">Hidden (disembunyikan permanen)</string>
+    <string name="tdkkeluark">Buah Kastrasi/TBM</string>
+    <string name="tdkkeluarp">Terjatuh ke parit</string>
+    <string name="tdkkeluart">Tertinggal</string>
+    <string name="tdkpanena">Aksesbilitas buruk</string>
+    <string name="tdkpanenk">Buah Kastrasi/TBM</string>
+    <string name="tdkpanenp">Kondisi pruning yang buruk</string>
+    <string name="tdkpanens">Buah sakit</string>
+    <string name="tdkpanent">Tertinggal</string>
+    <string name="tenera">tenera</string>
+    <string name="terlalu">Terlalu Masak</string>
+    <string name="test">test</string>
+    <string name="tidakStandart">Tidak Standart</string>
+    <string name="tidakdikeluarkan">Tidak Dikeluarkan:</string>
+    <string name="tidakterpanen">Tidak Terpanen:</string>
+    <string name="title_activity_main_menu">Main Menu</string>
+    <string name="title_activity_modul">Modul</string>
+    <string name="title_activity_pupuk">Pupuk</string>
+    <string name="title_activity_setelahpupuk">Setelahpupuk</string>
+    <string name="tphnext">TPH Berikut</string>
+    <string name="tphprev">TPH Sebelumnya</string>
+    <string name="tumpukanberondol">E.Tumpukan Brondolan (kg)</string>
+    <string name="tumpukpelepah">Tumpukan Pelepah:</string>
+    <string name="ukuran">Ukuran tidak standart</string>
+    <string name="ukurantph">Ukuran TPH (3x2m)?</string>
+    <string name="weeds">Ditutupi Gulma/Weeds</string>
+    <string name="wops">WOPS:</string>
+    <string name="yes">Ya</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

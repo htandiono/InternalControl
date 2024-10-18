@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Android\InternalControl\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="48c94ae70fa65718b382098237806a5909bb096e">
+        <dex dex="E:\Android\InternalControl\build\intermediates\pre-dexed\release\android-support-v4_89a1809a9f628a2d6ea938423866d04a3ba0ea62.jar" />
+    </item>
+    <item
+        jar="E:\Android\InternalControl\libs\jxl-2.6.12.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
+        <dex dex="E:\Android\InternalControl\build\intermediates\pre-dexed\release\jxl-2.6.12_5a69635d28c4f5a85243d560c1d012fcefe46ea1.jar" />
+    </item>
+
+</items>

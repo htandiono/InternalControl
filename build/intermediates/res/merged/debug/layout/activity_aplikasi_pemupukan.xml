@@ -1,0 +1,665 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="TooManyViews" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="@string/aplikasi1" />
+
+            <EditText
+                android:id="@+id/aplikasi1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi2" />
+
+            <CheckBox
+                android:id="@+id/aplikasi2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/yes" >
+            </CheckBox>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi3" />
+
+            <EditText
+                android:id="@+id/aplikasi3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi4" />
+
+            <EditText
+                android:id="@+id/aplikasi4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi5" />
+
+            <EditText
+                android:id="@+id/aplikasi5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi6" />
+
+            <EditText
+                android:id="@+id/aplikasi6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi7" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi71" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi72" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi73" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/aplikasi711"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:id="@+id/aplikasi712"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:id="@+id/aplikasi713"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="2"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="time" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi8" />
+
+            <EditText
+                android:id="@+id/aplikasi8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+            </EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi81" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/aplikasi81"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi9" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF" >
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi91" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi92" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi911" />
+
+                    <EditText
+                        android:id="@+id/aplikasi911"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi912" />
+
+                    <EditText
+                        android:id="@+id/aplikasi912"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi913" />
+
+                    <EditText
+                        android:id="@+id/aplikasi913"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi914" />
+
+                    <EditText
+                        android:id="@+id/aplikasi914"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi915" />
+
+                    <EditText
+                        android:id="@+id/aplikasi915"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi916" />
+
+                    <EditText
+                        android:id="@+id/aplikasi916"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi917" />
+
+                    <EditText
+                        android:id="@+id/aplikasi917"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi918" />
+
+                    <EditText
+                        android:id="@+id/aplikasi918"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi919" />
+
+                    <EditText
+                        android:id="@+id/aplikasi919"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:text="@string/aplikasi9110" />
+
+                    <EditText
+                        android:id="@+id/aplikasi9110"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_margin="1dp"
+                        android:layout_weight="1"
+                        android:background="#000000"
+                        android:gravity="center"
+                        android:inputType="numberSigned" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aplikasi10" />
+
+            <RadioGroup
+                android:id="@+id/aplikasi10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/aplikasi101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/aplikasi101" />
+
+                <RadioButton
+                    android:id="@+id/aplikasi102"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aplikasi102" />
+
+                <RadioButton
+                    android:id="@+id/aplikasi103"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aplikasi103" />
+
+                <RadioButton
+                    android:id="@+id/aplikasi104"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aplikasi104" />
+
+                <RadioButton
+                    android:id="@+id/aplikasi105"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aplikasi105" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/aplikasi1051"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="@string/aplikasi11" />
+
+            <EditText
+                android:id="@+id/aplikasi11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberSigned" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/aplikasi12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/supervisi" />
+
+            <Button
+                android:id="@+id/aplikasi13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/auditpupuk" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
